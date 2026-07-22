@@ -1,19 +1,36 @@
-Git Branching and Merging - Notes
+Additional Notes (GitNewBranch)
+-------------------------------
 
-Introduction
-------------
-Git branches allow developers to work on new features or bug fixes
-without affecting the main branch. Every branch maintains its own
-commit history until it is merged.
+Merge
+-----
+A merge combines the history of one branch with another.
+After successful merging, all committed changes become
+available in the target branch.
 
-Branching
----------
-A branch is a separate line of development. It helps developers work
-independently on different tasks.
-Advantages of Branching
------------------------
-1. Isolates development work.
-2. Allows multiple developers to work simultaneously.
-3. Reduces the risk of affecting stable code.
-4. Makes collaboration easier.
-5. Supports feature-based development.
+Useful Git Commands
+-------------------
+
+git checkout main
+    Switches back to the main branch.
+
+git merge GitNewBranch
+    Merges the feature branch into main.
+
+git branch -d GitNewBranch
+    Deletes the branch after merging.
+
+Best Practices
+--------------
+
+1. Commit frequently.
+2. Use meaningful commit messages.
+3. Merge only after testing.
+4. Delete unused branches.
+5. Keep the main branch stable.
+
+Exercise Status
+---------------
+
+Branch Created          : Yes
+Files Modified          : Yes
+Ready for Commit        : Yes

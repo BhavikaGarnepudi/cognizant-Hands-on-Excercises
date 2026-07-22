@@ -1,30 +1,26 @@
-# Git Branching and Merging
+---
 
-## Objective
+## Changes in GitNewBranch
 
-This hands-on exercise demonstrates the concepts of Git branching and merging.
+This section was added after switching to the **GitNewBranch**.
 
-## Learning Outcomes
+### Activities Performed
 
-- Create a new branch.
-- Switch between branches.
-- Make changes in a branch.
-- Commit changes to the branch.
-- Compare differences between branches.
-- Merge a branch into the master branch.
-- View commit history.
-- Delete a merged branch.
+- Created a new feature branch.
+- Modified project documentation.
+- Updated notes with additional Git commands.
+- Prepared changes for merging into the main branch.
 
-## Tools Used
+### Benefits of Branching
 
-- Git Bash
-- Git
-- Notepad++
-- GitHub
+- Enables parallel development.
+- Keeps the main branch stable.
+- Simplifies testing of new features.
+- Improves team collaboration.
+- Makes code reviews easier.
 
-## Repository Structure
+### Branch Information
 
-Git Branching and Merging/
-│── README.md
-│── notes.txt
+Current Branch: GitNewBranch
 
+Status: Development in Progress
