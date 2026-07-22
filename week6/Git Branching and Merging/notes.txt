@@ -1,0 +1,19 @@
+Git Branching and Merging - Notes
+
+Introduction
+------------
+Git branches allow developers to work on new features or bug fixes
+without affecting the main branch. Every branch maintains its own
+commit history until it is merged.
+
+Branching
+---------
+A branch is a separate line of development. It helps developers work
+independently on different tasks.
+Advantages of Branching
+-----------------------
+1. Isolates development work.
+2. Allows multiple developers to work simultaneously.
+3. Reduces the risk of affecting stable code.
+4. Makes collaboration easier.
+5. Supports feature-based development.
